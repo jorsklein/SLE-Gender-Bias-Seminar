@@ -1,6 +1,12 @@
-# Gender-aware Random Forest Classification on SLE Gene Expression Metadata
+# SLE Gender Bias Analysis
 
-This repository contains a Python pipeline for analyzing potential gender-based differences in SLE diagnosis models using Random Forest classification.
+This project analyzes gender bias in gene expression–based classification of Systemic Lupus Erythematosus (SLE)
+using the GEO dataset [GSE88884](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE88884).
+
+## 🎯 Goals
+- Explore whether gender bias exists in gene expression–based classification of SLE.
+- Compare model performance for male vs female patients.
+- Identify top predictive features per gender using Random Forest classifiers.
 
 ## 🧪 What it does
 - Loads and cleans metadata (from GEO dataset GSE88884)
@@ -18,9 +24,8 @@ Expected input:
 `GSE88884_metadata_transposed_clean.csv` — a cleaned, row-wise metadata file based on GEO SeriesMatrix
 
 ## 📁 Output (in `/output` folder)
-- `feature_importance_female.csv`  
-- `feature_importance_female.png`  
-- `SLE_RF_summary.xlsx` — performance + top features
+- Top features per gender (CSV + PNG)
+- Performance summary (Excel) — performance + top features
 
 ## 🧠 Model Configuration
 - Model: `RandomForestClassifier(n_estimators=100, random_state=42)`
