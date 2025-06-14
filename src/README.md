@@ -8,10 +8,8 @@ train Random Forest models per gender, and output performance results.
 ### transpose_metadata.py
 Converts the original GSE88884_series_matrix.txt file into a structured CSV format.
 
-**Input**: Raw metadata file from GEO.
+**Input**: Raw metadata file from GEO./n
 **Output**: `GSE88884_metadata_transposed.csv`
-
-Use: Run once before analysis to prepare the metadata.
 
 ### main.py
 Main script that performs gender-specific modeling using Random Forest classifiers.
