@@ -35,6 +35,7 @@ python Seminar.py
 ## 📌 Notes
 - Requires pandas, numpy, matplotlib, seaborn, sklearn, imblearn, xlsxwriter
 - Can be extended to support new datasets by updating the input file
+- The dataset used in this project is from GEO Series GSE88884. It is not included here due to size and license considerations.
 
 ## 👩‍🔬 Created by
 Jordan Klein | Open University of Israel
