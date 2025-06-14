@@ -39,4 +39,4 @@ python Seminar.py
 
 ## 👩‍🔬 Created by
 Jordan Klein | Open University of Israel
-For a B.Sc. Bioinformatics seminar on gender bias in gene-expression-based ML models for SLE
+for a B.Sc. Bioinformatics seminar on gender bias in gene-expression-based ML models for SLE
